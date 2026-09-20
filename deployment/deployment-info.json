@@ -1,0 +1,30 @@
+{
+  "projectName": "Blockchain-Based Welfare Scheme Distribution Tracking System",
+  "assignment": "BIC702 Blockchain Technology - Activity 1",
+  "author": "Jaison J",
+  "contractName": "WelfareDistribution",
+  "compiler": "Solidity 0.8.20",
+  "networks": {
+    "ganache": {
+      "networkName": "Ganache Local Testnet",
+      "rpcUrl": "http://127.0.0.1:7545",
+      "chainId": 1337,
+      "defaultContractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "adminAddress": "0x90F79bf6EB2c4f870365E785982E1f101E93b906"
+    },
+    "hardhat": {
+      "networkName": "Hardhat Local Node",
+      "rpcUrl": "http://127.0.0.1:8545",
+      "chainId": 31337,
+      "defaultContractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "adminAddress": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    },
+    "simulated": {
+      "networkName": "In-Browser Web3 EVM Simulator",
+      "chainId": 1337,
+      "defaultContractAddress": "0x71C6793F1dAB3cd8DE9994c65e8B91aC19A07D9A",
+      "adminAddress": "0xFE3B557E8Fb62b89F4916B721be55cEb828dBd73"
+    }
+  },
+  "defaultNetwork": "ganache"
+}

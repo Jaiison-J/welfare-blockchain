@@ -1,0 +1,6 @@
+{
+  "name": "WelfareChain - Welfare Scheme Distribution Tracker",
+  "description": "Blockchain-based Welfare Scheme Distribution Tracking System using Solidity, Ethers.js, and Ganache/MetaMask for BE CS BIC702 Activity 1 by Jaison J.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
